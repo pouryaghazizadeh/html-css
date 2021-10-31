@@ -1,0 +1,101 @@
+.Container-header {
+  height: 50px;
+  width: 100vw;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-nav {
+  margin-left: 15px;
+  width: 1000px;
+  /* background: violet; */
+  display: flex;
+  justify-content: center;
+}
+ .menue {
+  width: 600px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+
+  /* background-color: yellowgreen; */
+
+}
+.item-menue {
+  text-decoration: none;
+   color: #ffffff;
+    margin-right: 40px;
+}
+#apple-logo {
+  color: #ffffff;
+  font-size: large;
+  margin-right: 15px;
+}
+/* search container */
+#search-logo {
+  color: #ffffff;
+  margin-right: 20px;
+}
+.search-box {
+  display: none;
+}
+
+/*  */
+.button-bars{
+    background: #333333;
+}
+
+
+
+
+.searchbox-container{
+
+}
+
+
+
+
+
+#shopping-logo {
+  color: #ffffff;
+}
+
+
+.container-bar{
+  display: none;
+}
+
+  @media  screen and (max-width: 830px) {
+
+.menue{
+   position: absolute;
+   top: 100px;
+   background: green;
+   width: 400px;
+   height: 800px;
+   display: flex;
+   flex-direction: column;
+ 
+}
+
+/* style bar icon */
+.container-bar{
+  display: block;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.searchbox-container{
+  position: absolute;
+  top: 100px
+}
+
+
+
+
+
+
+
+  }
