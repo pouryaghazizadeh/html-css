@@ -4,6 +4,27 @@
     box-sizing: border-box;
 }
 
-main{
-    background-color: aquamarine;
+section{
+   width: 100vw;
+   height: 900px;
+   background-image: url("https://i.pinimg.com/474x/f9/f8/d8/f9f8d807657d0f9d8e1d5921f09f4fe7.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+
+
+.container-card{
+    width: 100%;
+}
+
+.macbook{
+    width: 100vw;
+    height: 900px;
+}
+.card{
+    width: 400px;
+    height: 400px;
+    background: rebeccapurple;
 }
