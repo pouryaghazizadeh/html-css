@@ -4,15 +4,26 @@
   box-sizing: border-box;
   /* max-width: 1400px; */
 }
-
-section {
+/* section iphone big card */
+.iphone-bigimg-container{
   width: 100vw;
   height: 900px;
-  background-image: url("https://i.pinimg.com/474x/f9/f8/d8/f9f8d807657d0f9d8e1d5921f09f4fe7.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+  background: rgb(52, 40, 60);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 
+}
+.title-iphone-bigcard{
+  color: #f2f2f2;
+  font-size: 80px;
+  position: absolute;
+  top: 200px;
+}
+.iphone-big-img{
+   width: 70vw;
+  height: 700px;
+}
 .section-img-macbook {
   width: 100vw;
   height: 900px;

@@ -12,7 +12,7 @@
 .container-nav {
   margin-left: 15px;
   width: 1000px;
-  /* background: violet; */
+
   display: flex;
   justify-content: center;
 }
@@ -21,8 +21,6 @@
   list-style: none;
   display: flex;
   justify-content: space-between;
-
-  /* background-color: yellowgreen; */
 }
 .item-menue {
   text-decoration: none;
