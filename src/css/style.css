@@ -1,29 +1,36 @@
 * {
   padding: 0px;
   margin: 0px;
+
   box-sizing: border-box;
   /* max-width: 1400px; */
 }
+main {
+  margin-top: 50px;
+  position: absolute;
+}
+
 /* section iphone big card */
-.iphone-bigimg-container{
+.iphone-bigimg-container {
   width: 100vw;
   height: 900px;
   background: rgb(52, 40, 60);
   display: flex;
   justify-content: center;
   align-items: flex-end;
-
+  margin-bottom: 10px;
 }
-.title-iphone-bigcard{
+.title-iphone-bigcard {
   color: #f2f2f2;
   font-size: 80px;
   position: absolute;
   top: 200px;
 }
-.iphone-big-img{
-   width: 70vw;
+.iphone-big-img {
+  width: 70vw;
   height: 700px;
 }
+/* section macbook big card  */
 .section-img-macbook {
   width: 100vw;
   height: 900px;
@@ -40,7 +47,6 @@
   font-size: 100px;
   margin-bottom: 50px;
   color: #fff;
-  /* bottom: 0; */
 }
 .container-card {
   width: 100%;
@@ -76,29 +82,77 @@
   height: 400px;
 }
 
-#ipad-card{
-  background:#FAFAFA;
+#ipad-card {
+  background: #fafafa;
 }
 
-
-#appleTv-card{
-  background:#FFFFFF;
+#appleTv-card {
+  background: #ffffff;
 }
 
-#imac-card{
-  background:#FFFFFF ;
+#imac-card {
+  background: #ffffff;
 }
-
-
-
-@media screen and (max-width: 830px) {}
-
-
-
 
 h6 {
   margin: 100px;
   display: block;
   font-size: 60px;
   text-align: center;
+}
+
+/*************  media query **********/
+
+@media screen and (max-width: 850px) {
+  .iphone-bigimg-container {
+    height: 600px;
+  }
+  .iphone-big-img {
+    height: 600px;
+  }
+  .title-iphone-bigcard {
+    font-size: 60px;
+    top: 50px;
+  }
+
+  /* section about big card image mac */
+  .macbook-img {
+    height: 700px;
+  }
+  .section-img-macbook {
+    height: 700px;
+  }
+  .mac-title {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  /* image big iphone */
+  .iphone-big-img {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .iphone-bigimg-container {
+    height: 500px;
+  }
+  .title-iphone-bigcard {
+    font-size: 50px;
+  }
+  .iphone-big-img {
+    height: 400px;
+  }
+
+
+    /* section about big card image mac */
+  .macbook-img {
+    height: 600px;
+  }
+  .section-img-macbook {
+    height: 600px;
+  }
+    .mac-title {
+    font-size: 60px;
+  }
 }

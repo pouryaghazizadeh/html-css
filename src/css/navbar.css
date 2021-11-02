@@ -7,6 +7,7 @@
   align-items: center;
   position: fixed;
   z-index: 999;
+
 }
 
 .container-nav {
@@ -47,6 +48,8 @@
 }
 
 .searchbox-container {
+  display: none;
+
 }
 
 #shopping-logo {
@@ -68,7 +71,8 @@
     padding-top: 50px;
     padding-bottom: 10px;
     flex-direction: column;
-    /* justify-content: center; */
+    z-index: 999;
+ 
     align-items: center;
 
     transition: all 0.5s ease;
