@@ -1,61 +1,93 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  /* max-width: 1400px; */
 }
 
-section{
-   width: 100vw;
-   height: 900px;
-   background-image: url("https://i.pinimg.com/474x/f9/f8/d8/f9f8d807657d0f9d8e1d5921f09f4fe7.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
+section {
+  width: 100vw;
+  height: 900px;
+  background-image: url("https://i.pinimg.com/474x/f9/f8/d8/f9f8d807657d0f9d8e1d5921f09f4fe7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.section-img-macbook {
+  width: 100vw;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.macbook-img {
+  width: 100vw;
+  height: 900px;
+}
+.mac-title {
+  position: absolute;
+  font-size: 100px;
+  margin-bottom: 50px;
+  color: #fff;
+  /* bottom: 0; */
+}
+.container-card {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  position: relative;
+  width: 47vw;
+  height: 600px;
+  background: #f2f2f2;
+  margin: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border: rgba(0, 0, 0, 0.089) solid 0.1px;
+}
+.title-card {
+  position: absolute;
+  top: 80px;
+  font-size: 50px;
+}
+/* choose background for cards */
+#airpod {
+  background-color: #ebebec;
+}
+#watch-card {
+  background-color: #f4f4f6;
+}
+.image-cards {
+  width: 100%;
+  height: 400px;
+}
+
+#ipad-card{
+  background:#FAFAFA;
+}
+
+
+#appleTv-card{
+  background:#FFFFFF;
+}
+
+#imac-card{
+  background:#FFFFFF ;
 }
 
 
 
+@media screen and (max-width: 830px) {}
 
-.section-img-macbook{
-     width: 100vw;
-    height: 900px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-.macbook-img{
-    width: 100vw;
-    height: 900px;
-}
-.mac-title{
-    position: absolute;
-    font-size: 100px;
-    margin-bottom: 50px;
-    color: #fff;
-    /* bottom: 0; */
-    
 
-}
-.container-card{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.card{
- 
-    width: 47vw;
-    height: 600px;
-    background: #f2f2f2;
-    margin: 10px;
-    display: flex;
-    align-items: flex-end;
-}
-#airpod{
-    background-color: #ebebec;
-}
-.image-cards{
-    width: 100%;
-    height: 400px;
 
+
+h6 {
+  margin: 100px;
+  display: block;
+  font-size: 60px;
+  text-align: center;
 }
