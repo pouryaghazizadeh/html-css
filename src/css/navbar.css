@@ -6,8 +6,7 @@
   justify-content: center;
   align-items: center;
   position: fixed;
-  z-index: 999;
-
+  z-index: 5;
 }
 
 .container-nav {
@@ -34,22 +33,28 @@
   margin-right: 15px;
 }
 /* search container */
+.searchbox-container {
+}
 #search-logo {
-  color: #ffffff;
-  margin-right: 20px;
+  color: #333333;
+  font-size: 20px;
+  position: absolute;
+  display: block;
+
 }
 .search-box {
+  height: 100%;
+  width: 90vw;
+  font-size: 15px;
+  outline: none;
+  border: none;
   display: none;
+
 }
 
 /*  */
 .button-bars {
   background: #333333;
-}
-
-.searchbox-container {
-  display: none;
-
 }
 
 #shopping-logo {
@@ -66,15 +71,13 @@
     top: 50px;
     background: rgb(29, 29, 31);
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: flex;
-    padding-top: 50px;
-    padding-bottom: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     flex-direction: column;
     z-index: 999;
- 
     align-items: center;
-
     transition: all 0.5s ease;
   }
 
@@ -85,22 +88,23 @@
     margin-left: 10px;
     font-size: large;
   }
-
-  .searchbox-container {
-    position: absolute;
-    top: 100px;
-    color: black;
-  }
-
   #shopping-logo {
     position: absolute;
     right: 15px;
   }
 
-  /* .searchbox-container{
-  display: block;
-  background: white;
-  width: 90%;
-  height: 30px;
-} */
+/* search box */
+  .searchbox-container {
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    z-index: 999;
+    background: green;
+    /* background: rgb(255, 255, 255); */
+    width: 97vw;
+    height: 30px;
+    margin: 5px;
+    padding: 0px;
+  }
 }
