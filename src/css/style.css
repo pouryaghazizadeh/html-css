@@ -94,7 +94,7 @@ main {
   background: #ffffff;
 }
 
-.newProduct-title{
+.newProduct-title {
   margin-top: 50px;
   margin-bottom: 50px;
   display: block;
@@ -134,10 +134,10 @@ main {
     height: 500px;
   }
 
-.card {
-  margin: 20px;
-  width: 80vw;
-}
+  .card {
+    margin: 20px;
+    width: 80vw;
+  }
 }
 /* media screen 550 */
 @media screen and (max-width: 550px) {
@@ -151,34 +151,28 @@ main {
     height: 400px;
   }
 
-
-    /* section about big card image mac */
+  /* section about big card image mac */
   .macbook-img {
     height: 600px;
   }
   .section-img-macbook {
     height: 600px;
   }
-    .mac-title {
+  .mac-title {
     font-size: 45px;
   }
-/*  */
-    .newProduct-title{
-
-  font-size: 40px;
-
-}
-/* cards */
-.card {
-height: 500px;
-}
-.image-cards {
-
-  height:350px;
-}
-.title-card {
- 
-  top: 65px;
-
-}
+  /*  */
+  .newProduct-title {
+    font-size: 40px;
+  }
+  /* cards */
+  .card {
+    height: 500px;
+  }
+  .image-cards {
+    height: 350px;
+  }
+  .title-card {
+    top: 65px;
+  }
 }
