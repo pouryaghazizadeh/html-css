@@ -51,6 +51,7 @@ main {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+
   justify-content: center;
 }
 .card {
@@ -133,8 +134,12 @@ main {
     height: 500px;
   }
 
-
+.card {
+  margin: 20px;
+  width: 80vw;
 }
+}
+/* media screen 550 */
 @media screen and (max-width: 550px) {
   .iphone-bigimg-container {
     height: 500px;
@@ -161,6 +166,19 @@ main {
     .newProduct-title{
 
   font-size: 40px;
+
+}
+/* cards */
+.card {
+height: 500px;
+}
+.image-cards {
+
+  height:350px;
+}
+.title-card {
+ 
+  top: 65px;
 
 }
 }
