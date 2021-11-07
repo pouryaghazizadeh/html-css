@@ -34,6 +34,7 @@
 }
 /* search container */
 .searchbox-container {
+ 
 }
 #search-logo {
   color: #ffffff;
@@ -101,7 +102,8 @@
 
     width: 97vw;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 5px 5px 5px 5px;
+    background: green;
     margin: 5px;
     padding: 0px;
   }
@@ -114,6 +116,7 @@
   }
 
   .search-box {
+    border-radius: 0px 5px 5px 0px;
     display: block;
     position: absolute;
     right: 0px;
