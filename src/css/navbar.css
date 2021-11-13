@@ -27,6 +27,7 @@
   color: #ffffff;
   margin-right: 40px;
 }
+
 #apple-logo {
   color: #ffffff;
   font-size: large;
@@ -120,8 +121,6 @@
     display: block;
     position: absolute;
     right: 0px;
-
-    /* background-color: aqua; */
   }
 }
 
