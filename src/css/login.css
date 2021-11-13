@@ -21,6 +21,8 @@
     justify-content: center;
     flex-wrap: wrap;
      box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
+     padding: 0px 7px 0px 7px;
+
 }
 
 .input{
