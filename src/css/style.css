@@ -3,7 +3,7 @@
   margin: 0px;
 
   box-sizing: border-box;
-  /* max-width: 1400px; */
+
   font-family: "Dancing Script", cursive;
   font-family: "Hind Madurai", sans-serif;
 }
@@ -67,7 +67,7 @@ main {
   justify-content: center;
   border: rgba(0, 0, 0, 0.089) solid 0.1px;
 }
-.card:hover{
+.card:hover {
   box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
 }
 .title-card {
@@ -78,16 +78,21 @@ main {
 .word-ipad-mini {
   display: inline;
   margin-left: 3px;
-font-family: 'Courgette', cursive;
-font-family: 'Dancing Script', cursive;
-font-weight: bold;
-font-size: 70px;
+  font-family: "Courgette", cursive;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  font-size: 70px;
   background: -webkit-linear-gradient(#ff6b88, #7e2cfc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.word-appleTv{
-    background: -webkit-linear-gradient(103deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+.word-appleTv {
+  background: -webkit-linear-gradient(
+    103deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline;
@@ -198,3 +203,4 @@ font-size: 70px;
     top: 65px;
   }
 }
+
