@@ -1,4 +1,7 @@
-footer{
-    height: 700px;
-    background-color: aqua;
+.footer-container {
+  background-color:#F5F5F7;
+  width: 100vw;
+  height: 500px;
+  position: absolute;
+  top: 3900px;
 }
